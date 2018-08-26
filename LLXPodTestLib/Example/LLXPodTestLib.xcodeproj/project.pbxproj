@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48FBDB88BF8E4332E6C54D29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		48FBDB88BF8E4332E6C54D29 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		57FFC99ECAFE9AA3E964F3F6 /* Pods-LLXPodTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLXPodTestLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLXPodTestLib_Tests/Pods-LLXPodTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5EFF5A45FD55AB216C6EC537 /* Pods_LLXPodTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLXPodTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LLXPodTestLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLXPodTestLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +63,9 @@
 		7F340A133789DBF684257442 /* Pods-LLXPodTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLXPodTestLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLXPodTestLib_Tests/Pods-LLXPodTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99973910CC702AED5E3C1062 /* Pods_LLXPodTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLXPodTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B1F8E6F58E6E11326F4A498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9B1F8E6F58E6E11326F4A498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B0BAA9CF8B4AF16B6F200CA5 /* Pods-LLXPodTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLXPodTestLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLXPodTestLib_Example/Pods-LLXPodTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B9BEEF39565EE4467B3D2AE1 /* LLXPodTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLXPodTestLib.podspec; path = ../LLXPodTestLib.podspec; sourceTree = "<group>"; };
+		B9BEEF39565EE4467B3D2AE1 /* LLXPodTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLXPodTestLib.podspec; path = ../LLXPodTestLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F3257505175F7766FE52847A /* Pods-LLXPodTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLXPodTestLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLXPodTestLib_Example/Pods-LLXPodTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,15 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LLXPodTestLib_Tests-checkManifestLockResult.txt",
 			);
@@ -322,15 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LLXPodTestLib_Example/Pods-LLXPodTestLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LLXPodTestLib/LLXPodTestLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLXPodTestLib.framework",
 			);
@@ -344,15 +336,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LLXPodTestLib_Example-checkManifestLockResult.txt",
 			);
@@ -366,8 +354,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LLXPodTestLib_Tests/Pods-LLXPodTestLib_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
@@ -376,8 +362,6 @@
 				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
