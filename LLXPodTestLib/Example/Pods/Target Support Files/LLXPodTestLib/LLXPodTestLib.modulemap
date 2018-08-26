@@ -1,0 +1,6 @@
+framework module LLXPodTestLib {
+  umbrella header "LLXPodTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "LLXPodTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of LLXPodTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ios-oc/LLXPodTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ios-oc": "xingshi007007@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ios-oc/LLXPodTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LLXPodTestLib/Classes/**/*"
+}
